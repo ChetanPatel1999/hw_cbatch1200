@@ -3,7 +3,7 @@
 void main()
 {
 	int a,b,c;
-	a=45;
+	a=56;
 	b=8;
 	printf("this is addition programm ...\n");
 	printf("value of a : %d\n",a);
