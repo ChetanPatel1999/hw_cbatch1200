@@ -1,13 +1,15 @@
 #include <stdio.h>
 void main()
 {
-    int i, n;
+    int i, n, tab;
     i = 1;
     printf("enter a num : ");
-    scanf("%d", &n);
+    scanf("%d", &n); // 5
+    tab = n;
     while (i <= 10)
     {
-        printf("%d \n", i * n); //
+        printf("%d \n", tab); //
+        tab += n;
         i++;
     }
 }
