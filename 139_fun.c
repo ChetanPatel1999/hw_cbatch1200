@@ -1,0 +1,20 @@
+// function in c language
+// if we make function above main function so we did not need to
+//function declaration.
+#include <stdio.h>
+void add() // function defination
+{
+    int a, b, c;
+    printf("enter two numbers : ");
+    scanf("%d%d", &a, &b);
+    c = a + b;
+    printf("sum = %d\n", c);
+}
+void main()
+{
+    printf("main fun start ...\n");
+    add();
+    printf("inside main ....\n");
+    add();
+    printf("end main fun ....\n");
+}

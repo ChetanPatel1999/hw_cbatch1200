@@ -1,12 +1,23 @@
-for (i = 1; i <= 5; i++) // 1
+#include <stdio.h>
+void main()
+{
+    int i,j,s;
+    for (i = 1; i <= 6; i++) // 1
     {
-        for (s = 1; s < i; s++)
+        for (s = 6; s > i; s--)
         {
             printf(" ");
         }
-        for (j = i; j <= 5; j++)
+        for (j = 1; j <= i; j++)
         {
-            printf("* ");
+            if(j==1 || j==i || i==6)
+            {
+                printf("* ");
+            }
+            else{
+                printf("  ");
+            }
         }
         printf("\n");
     }
+}
