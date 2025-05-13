@@ -6,8 +6,8 @@ void main()
     int i;
     int *ptr, *temp, n;
     printf("enter array size : ");
-    scanf("%d", &n);                      // 5
-    ptr = (int *)malloc(n * sizeof(int)); // 400
+    scanf("%d", &n);                     // 10                     // 5
+    ptr = (int *)calloc(n, sizeof(int)); // 400
     temp = ptr;
     printf("enter array element :");
     for (i = 0; i < n; i++)
