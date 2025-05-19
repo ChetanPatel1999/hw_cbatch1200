@@ -1,2 +1,1 @@
- // add();
-    // cube();
+ptr = temp;
