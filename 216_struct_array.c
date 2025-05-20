@@ -6,6 +6,18 @@ struct pen
     int price;
     float rating;
 };
+void above_5_pen(struct pen arr[], int s)
+{
+    int i;
+    printf("pen which price above 5rs  : \n");
+    for (i = 0; i < s; i++)
+    {
+        if (arr[i].price > 5)
+        {
+            printf("%s\n", arr[i].name);
+        }
+    }
+}
 void main()
 {
     int n;
@@ -34,4 +46,5 @@ void main()
         printf("pen rating : %.1f\n", p[i].rating);
         printf("------------------------------------\n");
     }
+    above_5_pen(p, n);
 }

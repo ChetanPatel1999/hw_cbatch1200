@@ -2,9 +2,9 @@
 #include <string.h>
 struct pen
 {
-    char name[12];
-    int price;
-    float rating;
+    char name[12]; // data member
+    int price;     // data member
+    float rating;  // data member
 };
 void main()
 {
